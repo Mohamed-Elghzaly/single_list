@@ -56,7 +56,7 @@ List_Status ListInsertEnd(List *plist, uint32 Value){
 }
 
 
-List_Status ListInsertAfter(List *plist, uint32 Value, uint32 pos){
+List_Status ListInsertIn(List *plist, uint32 Value, uint32 pos){
     ListNode *pnode = (ListNode *)malloc(sizeof(ListNode));
     ListNode *TempNode = plist->Head;
     List_Status status = LIST_NOK;
