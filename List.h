@@ -29,7 +29,7 @@ List_Status ListDestroy(List *plist);
 
 List_Status ListInsertAtBeginning(List *plist, uint32 Value);
 List_Status ListInsertEnd(List *plist, uint32 Value);
-List_Status ListInsertAfter(List *plist, uint32 Value, uint32 pos);
+List_Status ListInsertIn(List *plist, uint32 Value, uint32 pos);
 
 uint32 ListDeleteAtBeginning(List *plist, List_Status *status);
 uint32 ListDelete(List *plist, uint32 pos, List_Status *status);
